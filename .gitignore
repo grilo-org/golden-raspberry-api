@@ -1,0 +1,58 @@
+# Compilados Python e caches
+__pycache__/
+*.py[cod]
+*.pyo
+*$py.class
+
+# Ambientes virtuais
+.venv/
+venv/
+env/
+ENV/
+
+# Arquivos de log
+*.log
+
+# SQLite (local ou em memória)
+*.sqlite3
+
+# Pytest cache
+.pytest_cache/
+
+# mypy cache
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Coverage
+.coverage
+*.cover
+coverage.xml
+htmlcov/
+
+# Diretórios de build
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Configs de IDE
+.vscode/
+.idea/
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Docker
+__dockerized__
+*.pid
+
+# Arquivos do dotenv
+.env
+.env.*
+
+# Arquivos temporários de execução
+*.spec
+*.bak
+*.tmp

@@ -1,0 +1,56 @@
+{
+	"info": {
+	  "name": "Golden Raspberry API",
+	  "_postman_id": "d7e3c232-0001-4001-81aa-raspberry0001",
+	  "description": "Collection para testar a API de intervalos de prêmios do Golden Raspberry Awards.",
+	  "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+	  {
+		 "name": "GET /producers/intervals",
+		 "request": {
+			"method": "GET",
+			"header": [],
+			"url": {
+			  "raw": "http://localhost:8000/producers/intervals",
+			  "protocol": "http",
+			  "host": ["localhost"],
+			  "port": "8000",
+			  "path": ["producers", "intervals"]
+			}
+		 },
+		 "response": []
+	  },
+	  {
+		 "name": "GET /producers/intervals/min",
+		 "request": {
+			"method": "GET",
+			"header": [],
+			"url": {
+			  "raw": "http://localhost:8000/producers/intervals/min",
+			  "protocol": "http",
+			  "host": ["localhost"],
+			  "port": "8000",
+			  "path": ["producers", "intervals", "min"]
+			}
+		 },
+		 "response": []
+	  },
+	  {
+		 "name": "GET /producers/intervals/max",
+		 "request": {
+			"method": "GET",
+			"header": [],
+			"url": {
+			  "raw": "http://localhost:8000/producers/intervals/max",
+			  "protocol": "http",
+			  "host": ["localhost"],
+			  "port": "8000",
+			  "path": ["producers", "intervals", "max"]
+			}
+		 },
+		 "response": []
+	  }
+	]
+ }
+ 
